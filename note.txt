@@ -1,0 +1,29 @@
+rcc -command is used to react class component
+rfc -command is used to react function component
+
+
+state lifting-
+    it is way of data sharing in between the child
+
+rendering  
+    to view the browser in the jsx 
+    converting jsx to html
+
+state use cheythal state nte value change akumbol component ne render cheyum
+
+The useEffect Hook allows you to perform side effects in your components.
+Some examples of side effects are: fetching data, directly updating the DOM, and timers.\
+
+-state -react components properties ne store cheyan
+
+hook is the functional components n feaures ADD Cheyan
+
+
+              REDUX
+        ---------------------------
+
+    1.create store :   configureStore() - to store state
+    2.create reducer : createReducer()- single state ne update cheyan
+    3.create action : createAction() -action inside reducer
+    4.create slice : createSlice() - seperate action and method create cheyan
+    provide selector(<Provider>) :to share data to the application
